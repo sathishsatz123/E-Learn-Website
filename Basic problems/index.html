@@ -1,0 +1,391 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-Learn | Programs</title>
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">  
+</head>
+
+<body>
+<header>
+  <div><h1>Basic Programs</h1></div>
+</header>
+
+<section class="ib-faq js-ib-faq">
+	<ul class="faq-categories">
+		<li><a class="faq-category" href="#topic-1">Python<i class="mob"></i></a></li>
+		<li><a class="faq-category" href="#topic-2">C<i class="mob"></i></a></li>
+		<li><a class="faq-category" href="#topic-3">Java<i class="mob"></i></a></li>
+		<li><a class="faq-category" href="#topic-4">C++<i class="mob"></i></a></li>
+		<li><a class="faq-category" href="#topic-5">Ruby<i class="mob"></i></a></li>
+
+		</ul> <!-- faq-categories -->
+
+	<div class="faq-items">
+		<ul id="topic-1" class="faq-group">
+			<li class="faq-title"><h2>Python</h2></li>
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>Python - Add Two Numbers</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		  <h1 style="margin-bottom:8px">Input:</h1>
+              <p class="lite"># This program adds two numbers<p>
+               <p>num1 = 1.5</p>
+               <p>num2 = 6.3</p>
+               <p class="lite"># Add two numbers</p>
+               <p>sum = num1 + num2</p>
+               <p class="lite"># Display the sum</p>
+               <p >print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+            </p>
+          <h1 style="margin:8px 0 8px 0">Output:</h1>
+		  <p>The sum of 1.5 and 6.3 is 7.8</p>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>Python - Add Two Numbers With User Input</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		    <h1 style="margin-bottom:8px">Input:</h1>
+            <p class="lite"># Store input numbers</p>
+            <p>num1 = input('Enter first number: ')<br>
+            num2 = input('Enter second number: ')<br>
+            <p class="lite"># Add two numbers</p>
+            <p>sum = float(num1) + float(num2)</p>
+            <p class="lite"># Display the sum</p>
+            <p>print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))</p>
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+			<p>Enter first number: 1.5<br>
+            Enter second number: 6.3<br>
+            The sum of 1.5 and 6.3 is 7.8</p>
+
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>Python - To swap two variables</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		    <h1 style="margin-bottom:8px">Input:</h1>
+            <p class="lite"># Python program to swap two variables</p>
+            <p>x = 5<br>
+             y = 10</p>
+            <p class="lite"># To take inputs from the user</p>
+            <p style="color:green">#x = input('Enter value of x: ')</p>
+            <p style="color:green">#y = input('Enter value of y: ')</p>
+            <p class="lite"># create a temporary variable and swap the values</p>
+            <p>temp = x<br>
+            x = y<br>
+            y = temp<br>
+            print('The value of x after swapping: {}'.format(x))<br>
+			print('The value of y after swapping: {}'.format(y))</p>
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+			<p>The value of x after swapping: 10<br>
+			The value of y after swapping: 5</p>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+		</ul> <!-- faq-group -->
+
+		<ul id="topic-2" class="faq-group">
+			<li class="faq-title"><h2>C</h2></li>
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>C - Area of square </span></a>
+
+				<div class="faq-response">
+          <div class="text-block">
+		     <h1 style="margin-bottom:8px">Input:</h1>
+            <p class ="lite">#include<<stdio.h>stdio.h></p>
+              <p> int main() <br>{ <br>
+                printf("\nEnter the Length of Side : ");<br>
+                scanf("%d", &side);<br>
+                area = side * side;<br>
+                printf("\nArea of Square : %d", area);</p>
+                <p class="lite">return (0);<br>
+                }</p>
+            <h1 style="margin:8px 0 8px 0">Output:</h1>
+            <p>Enter the Length of Side : 5 <br>
+               Area of Square : 25</p>
+		  </div>
+				</div> <!-- faq-response -->
+			</li>
+
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>C - Area of Rectangle</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		     <h1 style="margin-bottom:8px">Input:</h1>
+            <p class="lite">#include<<stdio.h>stdio.h></p>
+            <p class="lite">#include<<conio.h>conio.h></P>
+            <p class="lite">int main() { </p>
+            <p>int length, breadth, area;<br>
+            printf("\nEnter the Length of Rectangle : ");<br>
+            scanf("%d", &length);<br>
+            printf("\nEnter the Breadth of Rectangle : ");<br>
+            scanf("%d", &breadth);<br>
+            area = length * breadth;<br>
+            printf("\nArea of Rectangle : %d", area);<br></p>
+            <p class ="lite">return (0);
+}</p>
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+          <p>Enter the Length of Rectangle  : 5<br>
+            Enter the Breadth of Rectangle : 4<br>
+            Area of Rectangle : 20</p>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>C -Area of Circle</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		    <h1 style="margin-bottom:8px">Input:</h1>
+        <p class="lite">#include<<stdio.h>stdio.h></p>
+        <p class="lite">int main() { </p>
+            <p>float radius, area;<br>
+            printf("\nEnter the radius of Circle : ");<br>
+            scanf("%d", &radius);<br>
+            area = 3.14 * radius * radius;<br>
+            printf("\nArea of Circle : %f", area);<br></P>
+            <p class ="lite">
+   return (0);
+}</p>
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+      <p>Enter the radius of Circle : 2.0<br>
+        Area of Circle : 6.14</p>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+		</ul> <!-- faq-group -->
+
+		<ul id="topic-3" class="faq-group">
+			<li class="faq-title"><h2>Java</h2></li>
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>Java - Write a Java program to print 'Hello' on screen</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		    <h1 style="margin-bottom:8px">Input:</h1>
+            <p>public class Exercise1 {<br>
+            public static void main(String[] args) {<br>
+  System.out.println("Hello");<br>
+}<br>
+
+}</p>
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+      <p>Hello</p>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>Java - Write a Java program to print the sum of two numbers.</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		     <h1 style="margin-bottom:8px">Input:</h1>
+            <p>import java.util.Scanner;<br>
+              public class Main {<br>
+  public static void main(String[] args)<br>
+  {<br>
+    Scanner input = new Scanner (System.in);<br>
+    System.out.print("Input the first number: ");<br>
+    int num1 = input.nextInt();<br>
+    System.out.print("Input the second number: ");<br>
+    int num2 = input.nextInt();<br>
+    int sum = num1 + num2;<br>
+    System.out.println();<br>
+    System.out.println("Sum: "+sum);<br>
+  }<br>
+}</p>
+			 <h1 style="margin:8px 0 8px 0">Output:</h1>
+       <p>Input the first number:  256<br>
+         Input the second number:  326<br>
+
+         Sum: 582</p>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>Java -Write a Java program to divide two numbers and print on the screen. </span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		     <h1 style="margin-bottom:8px">Input:</h1>
+            <p>import java.util.Scanner;<br>
+              public class Main {<br>
+  public static void main(String[] args)<br>
+  {<br>
+    Scanner input = new Scanner (System.in);<br>
+    System.out.print("Input the first number: ");<br>
+    int a = input.nextInt();<br>
+    System.out.print("Input the second number: ");<br>
+    int b = input.nextInt();<br>
+    int d = (a/b);<br>
+    System.out.println();<br>
+    System.out.println("The division of a and b is:" +d);<br>
+  }<br>
+}</p>
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+      <p>Input the first number:  7<br>
+Input the second number:  2<br>
+
+The division of a and b is:3</p>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+		</ul> <!-- faq-group -->
+
+		
+		<ul id="topic-4" class="faq-group">
+			<li class="faq-title"><h2>C++</h2></li>
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>C++ - Write a program in C++ to print a welcome text in a separate line</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		     <h1 style="margin-bottom:8px">Input:</h1>
+            <p class="lite">#include <<iostream>iostream></p><p>
+using namespace std;<br>
+
+int main()<br>
+{<br>
+    cout << "\n\n Print a welcome text in a separate line :\n";<br>
+	cout << "----------------------------------------------\n";<br>
+    cout << " Welcome to \n" ;<br>
+    cout << " E-learn.com "<<endl ;<br>
+
+}</p>
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+      <p>Print a welcome text in a separate line :<br>
+----------------------------------------------<br>
+ Welcome to<br>
+ E-learn.com</p>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>C++ - Write a program in C++ to print the sum of two numbers</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		     		     <h1 style="margin-bottom:8px">Input:</h1>
+            <p class="lite">#include <<iostream>iostream></p><p>
+using namespace std;<br>
+
+int main()<br>
+{<br>
+    cout << "\n\n Print the sum of two numbers :\n";<br>
+	cout << "-----------------------------------\n";<br>
+    cout << " The sum of 29 and 30 is : "<< 29+30 <<"\n\n" ;<br>
+  }</p>
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+      <p> Print the sum of two numbers :<br>
+-----------------------------------<br>
+ The sum of 29 and 30 is : 59</p>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>C++ - Print the sum of two numbers using variables</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		    		    <h1 style="margin-bottom:8px">Input:</h1>
+            <p class="lite">#include <<iostream>iostream></p><p>
+using namespace std;<br>
+int main()<br>
+{<br>
+  cout << "\n\n Print the sum of two numbers :\n";<br>
+	cout << "-----------------------------------\n";<br>
+	int a;<br>
+	int b;<br>
+	int sum;<br>
+	a=29;<br>
+	b=30;<br>
+	sum=a+b;<br>
+	cout << " The sum of "<< a << " is : "<< sum <<"\n\n" ;
+}</p>
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+      <p>Print the sum of two numbers :<br>
+-----------------------------------<br>
+ The sum of 29 and 30 is : 59</p>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+		</ul> <!-- faq-group -->
+		<ul id="topic-5" class="faq-group">
+			<li class="faq-title"><h2>Ruby</h2></li>
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>Ruby - Get ruby version with patch number</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		     <h1 style="margin-bottom:8px">Input:</h1>
+         <code>puts "Ruby Version: "+RUBY_VERSION<br>
+              puts "Ruby Patch Level: "+RUBY_PATCHLEVEL.to_s</code>
+
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+      <code>Ruby Version: 2.4.2<br>
+Ruby Patch Level: 198</code>
+
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>Ruby - Display the current date</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		     <h1 style="margin-bottom:8px">Input:</h1>
+         <code>require 'date'<br>
+current_time = DateTime.now<br>
+cdt = current_time.strftime "%d/%m/%Y %H:%M"<br>
+puts "Current Date and Time: "+cdt</code>
+
+          	<h1 style="margin:8px 0 8px 0">Output:</h1>
+            <code>Current Date and Time: 27/12/2017 10:30</code>
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+			<li class="faq-item">
+				<a class="faq-question" href="#0"><span>Ruby - Create a new string which is n copies of a given string where n is a non-negative integer</span></a>
+				<div class="faq-response">
+          <div class="text-block">
+		    <h1 style="margin-bottom:8px">Input:</h1>
+        <code>def multiple_string(str, n)<br>
+            return str*n<br>
+            end<br>
+            print multiple_string('a', 1),"\n"<br>
+            print multiple_string('a', 2),"\n"<br>
+            print multiple_string('a', 3),"\n"<br>
+            print multiple_string('a', 4),"\n"<br>
+            print multiple_string('a', 5),"\n"</code>
+
+			<h1 style="margin:8px 0 8px 0">Output:</h1>
+      <code>a<br>
+            aa<br>
+            aaa<br>
+            aaaa<br>
+            aaaaa</code>
+
+          </div>
+				</div> <!-- faq-response -->
+			</li>
+
+		</ul> <!-- faq-group -->
+      </div> <!-- faq-items -->
+
+	<a href="#0" class="faq-close-item text-replace">Close</a>
+  
+  <div class="faq-overlay" aria-hidden="true"></div>
+</section> <!-- ib-faq -->
+
+
+<script src="assets/js/faq.js"></script> 
+</body>
+</html>
